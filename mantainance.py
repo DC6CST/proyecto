@@ -7,6 +7,7 @@ class Mantainance():
         self.__price = price
         
     def info(self):
+        #Información sobre los mantenimientos de las máquinas de juegos
         print("Mantenimiento programado:\n")
         print(f"Máquina n°{self.__serialnum}.")
         print(f"Nombre: {self.__name}.")

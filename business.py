@@ -7,6 +7,7 @@ class Business():
 		self.__role = role
 
 	def info(self):
+		#Información detallada de la empresa
 		print("Datos de la empresa:\n")
 		print(f"Nombre de la empresa: {self.__name}")
 		print(f"Descripción: {self.__desc}")

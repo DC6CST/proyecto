@@ -9,6 +9,7 @@ class Worker():
         self.__tax = 0.20
         
     def info(self):
+        #Información sobre el trabajador y su salario
         print("Información del trabajador:\n")
         print(f"Trabajador n°{self.__id}")
         print(f"Señor/a: {self.__name}")

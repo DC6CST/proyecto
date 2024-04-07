@@ -6,6 +6,7 @@ class Report():
         self.__payments = int(payments)
         
     def netIncome(self):
+        #Información detallada del reporte diario, calculando ganacias y perdidas
         print("Reporte diario:\n")
         print(f"Día {self.__day}")
         print(f"Ingresos: {self.__income}")
